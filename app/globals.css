@@ -55,7 +55,7 @@ a {
   position: relative;
 }
 
-/* Overlay (assombrissement léger pour lisibilité du texte) */
+
 .hero::before {
   content: "";
   position: absolute;
@@ -71,6 +71,26 @@ a {
 .progress {
   margin-bottom: 25px;
 }
+
+.banner img {
+  width: 100%;
+  height: auto;    
+}
+
+.underline {
+  width: 35%;                    /* longueur de la barre */
+  height: 4px;                    /* épaisseur (sinon invisible) */
+  background-color: var(--bs-primary);
+  border-radius: 999px;           /* bouts arrondis (optionnel) */
+}
+
+.card:hover {
+  background-color: #efefef;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  transition: all 0.2s ease;
+}
+
+
 
 @media (max-width: 576px) {
   .hero {
