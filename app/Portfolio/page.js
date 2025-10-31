@@ -17,6 +17,7 @@ export default function PortfolioPage() {
             <article className="col-md-4 mt-5">
               <div className="card h-100">
                 <img
+                  className="card-img-top"
                   src="/img/fresh-food.webp"
                   alt="Aperçu du site Fresh Food"
                 />
@@ -38,6 +39,7 @@ export default function PortfolioPage() {
             <article className="col-md-4 mt-5">
               <div className="card h-100">
                 <img
+                  className="card-img-top"
                   src="/img/restaurant-japonais.webp"
                   alt="Aperçu du site Restaurant Akira"
                 />
@@ -59,6 +61,7 @@ export default function PortfolioPage() {
             <article className="col-md-4 mt-5">
               <div className="card h-100">
                 <img
+                  className="card-img-top"
                   src="/img/espace-bien-etre.webp"
                   alt="Page d'accueil du site Espace Bien-être"
                 />
@@ -78,6 +81,7 @@ export default function PortfolioPage() {
             <article className="col-md-4 mt-5">
               <div className="card h-100">
                 <img
+                  className="card-img-top"
                   src="/img/seo.webp"
                   alt="Optimisation SEO d'un site e-commerce"
                 />
@@ -98,7 +102,11 @@ export default function PortfolioPage() {
 
             <article className="col-md-4 mt-5">
               <div className="card h-100">
-                <img src="/img/coder.webp" alt="Illustration API RESTful" />
+                <img
+                  className="card-img-top"
+                  src="/img/coder.webp"
+                  alt="Illustration API RESTful"
+                />
                 <div className="card-body">
                   <h3 className="h5 fw-bold">Création d'une API</h3>
                   <p className="small">Création d'un API RESTFULL publique</p>
@@ -115,6 +123,7 @@ export default function PortfolioPage() {
             <article className="col-md-4 mt-5">
               <div className="card h-100">
                 <img
+                  className="card-img-top"
                   src="/img/screens.webp"
                   alt="Prototype de site créé avec Figma"
                 />
