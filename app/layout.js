@@ -4,7 +4,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 
 import { Nunito_Sans } from "next/font/google";
 import "./globals.css";
-
+import BootstrapClient from "./components/BootstrapClient";
 const nunito = Nunito_Sans({
   subsets: ["latin"],
   weight: ["400", "600"],
@@ -19,7 +19,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="fr">
-      <body className={nunito.variable}>{children}</body>
+      <body className={nunito.variable}>
+        <BootstrapClient />
+        {children}
+      </body>
     </html>
   );
 }
