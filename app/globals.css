@@ -78,10 +78,17 @@ a {
 }
 
 .underline {
-  width: 35%;                    /* longueur de la barre */
-  height: 4px;                    /* épaisseur (sinon invisible) */
+  width: 35%;                 
+  height: 4px;                
   background-color: var(--bs-primary);
-  border-radius: 999px;           /* bouts arrondis (optionnel) */
+  border-radius: 999px;           
+}
+
+.underline1 {
+  width: 100%;                 
+  height: 4px;                
+  background-color: var(--bs-primary);
+  border-radius: 999px;           
 }
 
 .card:hover {

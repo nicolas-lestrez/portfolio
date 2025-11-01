@@ -8,7 +8,7 @@ export default function PortfolioPage() {
           className="w-100 d-block"
         />
       </section>
-      <section className="services py-5">
+      <section className="portfolio py-5">
         <div className="container text-center">
           <h1 className="fw-bold mb-2">Portfolio</h1>
           <h2 className="h6 mb-4">Voici quelques unes de mes réalisations</h2>
@@ -134,7 +134,7 @@ export default function PortfolioPage() {
                     Voir le site
                   </button>
                 </div>
-                <div class="card-footer bg-light small text-muted">
+                <div className="card-footer bg-light small text-muted">
                   Réalisé avec FIGMA
                 </div>
               </div>
