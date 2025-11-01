@@ -12,8 +12,11 @@ const nunito = Nunito_Sans({
 });
 
 export const metadata = {
-  title: "Portfolio – Nicolas Lestrez",
-  description: "Portfolio Next.js + Bootstrap",
+  title: "Portfolio John Doe",
+  description: "Portfolio personnel de John Doe - Développeur web full stack",
+  icons: {
+    icon: "/anonym.png",
+  },
 };
 
 export default function RootLayout({ children }) {

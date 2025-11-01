@@ -136,7 +136,7 @@ export default function mentionslegalesPage() {
                   </a>
                 </p>
                 <p className="fst-italic">
-                  Le favicon de ce site a été fournie par{" "}
+                  Le favicon de ce site a été fourni par{" "}
                   <a
                     href="https://www.flaticon.com/de/kostenlose-icons/john-doe"
                     className="text-primary text-decoration-underline"
