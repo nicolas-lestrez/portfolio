@@ -1,4 +1,4 @@
-export default function PortfolioPage() {
+export default function contactPage() {
   return (
     <main>
       <section className="contact py-5">
@@ -71,34 +71,24 @@ export default function PortfolioPage() {
             <div className="underline1 mb-4"></div>
             <address className="fs-6">
               <strong className="h5 d-block mb-3">John Doe</strong>
-
-              <p className="mb-1">
-                <i className="bi bi-map me-2"></i>
-                40 rue Laure Diebold
-              </p>
-
-              <p className="mb-1">
-                <i className="bi bi-geo-alt me-2"></i>
-                69009 Lyon, France
-              </p>
-
-              <p className="mb-1">
-                <i className="bi bi-phone me-2"></i>
-                <a href="tel:+331020304050" className="text-decoration-none">
-                  10&nbsp;20&nbsp;30&nbsp;40&nbsp;50
-                </a>
-              </p>
-
-              <p>
-                <i className="bi bi-envelope-at me-2"></i>
-                <a
-                  href="mailto:john.doe@gmail.com"
-                  className="text-decoration-none"
-                >
-                  john.doe@gmail.com
-                </a>
-              </p>
+              <i className="bi bi-map me-2"></i> 40 rue Laure Diebold
+              <br />
+              <i className="bi bi-geo-alt me-2"></i> 69009 Lyon, France
+              <br />
+              <i className="bi bi-phone me-2"></i>
+              <a href="tel:+331020304050" className="text-decoration-none">
+                10&nbsp;20&nbsp;30&nbsp;40&nbsp;50
+              </a>
+              <br />
+              <i className="bi bi-envelope-at me-2"></i>
+              <a
+                href="mailto:john.doe@gmail.com"
+                className="text-decoration-none"
+              >
+                john.doe@gmail.com
+              </a>
             </address>
+
             <div className="ratio ratio-1x1">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4059.6526279037066!2d4.795459606231288!3d45.77869953170455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eb65edac5b3f%3A0xe01c47049cb2e2b9!2s40%20Rue%20Laure%20Diebold%2C%2069009%20Lyon!5e1!3m2!1sfr!2sfr!4v1761992334537!5m2!1sfr!2sfr"

@@ -1,4 +1,4 @@
-export default function PortfolioPage() {
+export default function portfolioPage() {
   return (
     <main>
       <section className="banner">
