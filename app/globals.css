@@ -97,6 +97,14 @@ a {
   transition: all 0.2s ease;
 }
 
+footer .rs a {
+  color: var(--bs-secondary);
+  transition: color 0.2s ease-in-out;
+}
+
+footer .rs a:hover {
+  color: var(--bs-light);
+}
 
 
 @media (max-width: 576px) {
