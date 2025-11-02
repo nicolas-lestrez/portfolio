@@ -14,6 +14,7 @@ export default function Home() {
               className="btn btn-danger mt-3"
               data-bs-toggle="modal"
               data-bs-target="#enSavoirPlusModal"
+              aria-label="Ouvrir fenêtre d'information"
             >
               En savoir plus
             </button>
