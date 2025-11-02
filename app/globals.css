@@ -96,6 +96,16 @@ a {
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
   transition: all 0.2s ease;
 }
+/* Style du lien actif */
+.nav-link.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Soulignement au survol */
+.nav-link:hover {
+  text-decoration: underline;
+}
 
 footer .rs a {
   color: var(--bs-secondary);
